@@ -1,0 +1,148 @@
+header {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 20px;
+    text-align: right;
+    padding-right: 200px;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+}
+
+
+
+
+
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+
+}
+
+section {
+    margin-top: 200px;
+
+    padding: 20px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: blue;
+
+    padding: 10px;
+    border-radius: 10px;
+    border-block-color: none;
+}
+
+header h1 {
+    color: aliceblue;
+    text-align: left;
+
+}
+
+header div .MyApp {
+    text-align: left;
+
+}
+
+footer {
+
+    position: fixed;
+    left: 40vw;
+    bottom: 10px;
+}
+
+/* ice cream Images */
+img {
+    width: 200px;
+    height: 150px;
+
+}
+
+
+
+/* Buy Button  */
+button {
+    background-color: blue;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: inset;
+    border-color: none;
+    margin-top: 10px;
+    /* To add space between the image and the button */
+}
+
+
+
+
+/* but Button Hover*/
+button:hover {
+    background-color: red;
+}
+
+/* heading For Item Names */
+.Heading {
+
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 5px 2px rgb(155, 150, 150);
+
+
+
+}
+
+/* all Section names */
+.Biryani,
+.Biryani2,
+.Biryani3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.Ice2,
+.Ice,
+.Ice3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.Food,
+.Food1,
+.Food2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+
+
+
+/*symbol properties */
+.Sym {
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
